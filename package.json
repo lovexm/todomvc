@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8",
+    "todomvc-app-css": "^2.0.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "hs -o",
+    "predev": "npm install",
+    "dev": "hs -o"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
